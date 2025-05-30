@@ -1,5 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+
 body{
     height:100vh;
     margin:0;
+    display:flex;
+    justify-content: center;
 
+}
+
+*{
+    transition: 0.5s;
+}
+
+.PageContainer{
+    width: var(--pageWidth);
+    background-color: #c1c1c1;
+}
+
+
+
+.banner{
+    height:var(--bannerHeight);
+    width:100%;
+    background-color: var(--bannerColor);
+
+    #juice-banner{
+        margin-top:10px;
+    }
+
+    .banner-btns {
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-top:10px;
+
+        .cart-section{
+            display:flex;
+            justify-content: center;
+        }
+
+        #Logo{
+            width: 90px;
+            padding:8px;
+            transform:scale(1.25);
+        }
+
+        #cartIcon{
+            width:60px;
+            height:40px;
+            margin-top:10px;
+            padding:8px;
+            cursor:pointer;
+        }
+
+
+        p{
+            font-family: "Single Day", cursive;
+            font-weight:bold;
+            letter-spacing: 3px;
+            color:white;
+            cursor:pointer;
+            font-size:var(--bannerText);
+        }
+    }
 }

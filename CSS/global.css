@@ -1,0 +1,10 @@
+:root{
+    /* -- BANNER -- */
+    --bannerColor: #4E8600;
+    --bannerHeight:100px;
+    --bannerText: 1.5em;
+
+
+    --pageWidth: 85%;
+
+}
