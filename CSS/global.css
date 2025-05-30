@@ -1,7 +1,7 @@
 :root{
     /* -- BANNER -- */
     --bannerColor: #4E8600;
-    --bannerHeight:100px;
+    --bannerHeight:fit-content;
     --bannerText: 1.5em;
 
 
