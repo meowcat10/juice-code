@@ -25,6 +25,8 @@ body{
 
     #juice-banner{
         margin-top:10px;
+        width:100%;
+        display:block;
     }
 
     .banner-btns {
