@@ -67,7 +67,64 @@ body{
 
 
 /* -- Volkan -- */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #d3d3d3;
+    font-family: 'Arial', sans-serif;
+}
 
+.PageContainer {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.PageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px 20px;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+.text-section p {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.image-section img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.button-section {
+    margin-top: 25px;
+}
+
+.explore-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 28px;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+}
+
+.explore-button:hover {
+    background-color: #3e9642;
+}
 
 
 
