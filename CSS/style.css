@@ -12,6 +12,7 @@ body{
 }
 
 .PageContainer{
+    height:fit-content;
     width: var(--pageWidth);
     background-color: var(--pageBgColor);
 }
@@ -65,6 +66,27 @@ body{
         }
     }
 }
+
+
+/* -- Andreas -- */
+
+.product-container{
+    display:flex;
+    justify-content: center;
+    gap:25px;
+    flex-wrap: wrap;
+    margin-top:25px;
+
+    .product{
+        width:150px;
+        height:150px;
+        background-color: white;
+
+
+    }
+}
+
+
 
 
 

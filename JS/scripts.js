@@ -13,6 +13,10 @@ cart.addEventListener('click', function(){
 
 
 let products = {
+
+    let size1000 = {},
+
+
     name: 'Product',
     size: '',
     price: '',
