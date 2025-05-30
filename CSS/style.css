@@ -5,16 +5,15 @@ body{
     margin:0;
     display:flex;
     justify-content: center;
-
 }
 
 *{
-    transition: 0.5s;
+    transition: var(--animation);
 }
 
 .PageContainer{
     width: var(--pageWidth);
-    background-color: #c1c1c1;
+    background-color: var(--pageBgColor);
 }
 
 
@@ -64,3 +63,17 @@ body{
         }
     }
 }
+
+
+
+/* -- Volkan -- */
+
+
+
+
+
+
+
+
+
+/* -- Simon -- */
