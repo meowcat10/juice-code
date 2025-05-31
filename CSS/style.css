@@ -124,7 +124,18 @@ body{
 }
 
 
+.packages {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: nowrap;
+    max-width: 1000px;
+    margin: 0 auto;
+}
 
+.package {
+    width: 1000px;
+}
 
 
 
