@@ -2,12 +2,34 @@
 const cartText = document.querySelector('.cart-text');
 
 /* Definere sektionen med kurv og dens mængde */
-const cart = document.querySelector('#cart');
+/* const cart = document.querySelector('#cart'); */
 
 /* Definere alle knapper med class 'btn-text' */
 let btns = document.querySelectorAll('.btn-text');
 
 
+
+let cart = {
+    items: 0,
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    /* Tjekker om kurven har nogen værdi i localstorage
+     - hvis ja videresendes den - hvis nej angives 0 */
+    let savedItems = localStorage.getItem('cartItems');
+    cart.items = savedItems ? parseInt(savedItems) : 0;
+    cartText.innerText = cart.items;
+})
+
+document.addEventListener('click', function(x){
+    if (x.target.classList.contains('product') || x.target.classList.contains('product-image')){
+        console.log('clicked');
+        cart.items += 1;
+        /* Kurvens værdi gemmes i localstorage med navnet 'cartItems' */
+        localStorage.setItem('cartItems', cart.items);
+        cartText.innerText = cart.items;
+    }
+})
 
 
 btns.forEach(function(btn){
@@ -61,6 +83,9 @@ function listProducts(){
         }
     }
 }
+
+
+
 
 
 /* Billeder til alle produkterne på hjemmesiden */
