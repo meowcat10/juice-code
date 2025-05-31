@@ -12,10 +12,6 @@ body{
     user-select: none;
 }
 
-a{
-    text-decoration: none;
-    color: inherit;
-}
 
 .PageContainer{
     height:fit-content;
@@ -77,12 +73,7 @@ a{
 
 /* -- Andreas -- */
 
-.size-Title{
-    text-align: center;
-    letter-spacing: 4px;
-    font-weight:bold;
-    font-size: 1.2rem;
-}
+
 
 .product-container{
     display:flex;
@@ -112,11 +103,8 @@ a{
             position: relative;
             top:-10px;
             align-self: flex-start;
-
             width: 60px;
-
         }
-
     }
 }
 
