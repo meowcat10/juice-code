@@ -124,25 +124,32 @@ body{
 }
 
 
-.packages {
+
+
+
+.container {
     display: flex;
     justify-content: center;
-    gap: 50px;
-    flex-wrap: nowrap;
-    max-width: 1000px;
-    margin: 0 auto;
+    flex-direction: row;
+    gap: 60px;
+    margin-top: 40px;
 }
 
 .package {
-    width: 1000px;
+    background-color: white;
+    padding: 16px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    width: 250px;
+    text-align: center;
+    transition: transform 0.2s ease;
 }
 
-
-
-
-
-
-
-
+.package img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
 
 /* -- Simon -- */
