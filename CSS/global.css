@@ -1,13 +1,29 @@
 :root{
     /* -- BANNER -- */
     --bannerColor: #4E8600;
-    --bannerHeight:100px;
+    --bannerHeight:fit-content;
     --bannerText: 1.5em;
 
-
+    /* -- GENERAL -- */
+    --font: "Single Day", cursive;
 
     --animation: 0.5s;
     --pageWidth: 85%;
     --pageBgColor: #c1c1c1;
+    --cartHeight: 80px;
+    --logoWidth: 90px;
+
+    /* -- PRODUCTS -- */
+    --productWidth:150px;
+    --productHeight:150px;
+    --productImageWidth:120px;
+    --productImageHeight:120px;
+
+    --productIconWidth:60px;
+
+
+    /* -- BUSINESS -- */
+    --BfontSize: 1.3rem;
+    --BpictureWidth: 500px;
 
 }
