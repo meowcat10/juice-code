@@ -2,20 +2,50 @@
 @media only screen and (max-width: 600px){
 
     :root{
+
         --pageWidth: 100%;
+        --bannerText: 3.2rem;
+        --cartHeight: 95px;
+
+        /* -- PRODUCTS -- */
+        --productWidth:240px;
+        --productHeight:240px;
+        --productImageWidth:200px;
+        --productImageHeight:200px;
+        --productIconWidth:90px;
+
     }
 
     #Logo{
         display:none;
     }
 
-
-
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
 
+    :root{
+
+        --pageWidth: 100%;
+        --bannerText: 3.2rem;
+        --cartHeight: 95px;
+
+        /* -- PRODUCTS -- */
+        --productWidth:240px;
+        --productHeight:240px;
+        --productImageWidth:200px;
+        --productImageHeight:200px;
+        --productIconWidth:90px;
+
+        /* -- BUSINESS -- */
+        --BpictureWidth: 800px;
+        --BfontSize: 2.8rem;
+    }
+
+    #Logo{
+        display:none;
+    }
 
 }
 
