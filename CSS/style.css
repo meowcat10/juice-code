@@ -3,6 +3,7 @@
 body{
     height:100vh;
     margin:0;
+    padding:0;
     display:flex;
     justify-content: center;
 }
@@ -15,10 +16,10 @@ body{
 
 .PageContainer{
     height:fit-content;
+    padding-bottom:50px;
     width: var(--pageWidth);
     font-family: var(--font);
     background-color: var(--pageBgColor);
-    padding-bottom:50px;
 }
 
 
@@ -131,8 +132,7 @@ body{
     }
 
     .image-section{
-        max-width:var(--BpictureWidth);
-        height: auto;
+        width:var(--BpictureWidth);
         border-radius: 8px;
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
     }
@@ -144,7 +144,8 @@ body{
     .explore-button {
         background-color: #4CAF50;
         color: white;
-        padding: 14px 28px;
+        padding: 14px 24px;
+        font-family: var(--font);
         font-size: var(--BfontSize);
         border: none;
         border-radius: 8px;
@@ -172,6 +173,55 @@ body{
 
 /* -- Simon -- */
 
-body {
-    min-height: 2000px; /* Make it long enough for now */
+.page-text{
+    font-family: var(--font);
+    font-size: 1.2rem;
+    text-align: left;
+}
+
+.top-section{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap:40px;
+    flex-direction: row;
+
+
+    button{
+        color:white;
+        padding:10px;
+        font-family: var(--font);
+        font-weight:bold;
+        font-size: 1.2rem;
+        border-radius:10px;
+        cursor: pointer;
+        background-color: #4E8600;
+    }
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.page-title{
+    font-size: var(--pageTitle);
+    text-align: center;
+    font-weight:bold;
+}
+
+.two-row{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:75px;
+    margin:40px;
+    flex-direction: row;
+    p{
+        font-size:var(--two_row_text);
+    }
+}
+
+.front-pictures{
+    width:35%;
 }

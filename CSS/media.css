@@ -4,15 +4,20 @@
     :root{
 
         --pageWidth: 100%;
-        --bannerText: 3.2rem;
-        --cartHeight: 95px;
+        --bannerText: 1.1rem;
+        --cartHeight: 45px;
+
 
         /* -- PRODUCTS -- */
-        --productWidth:240px;
-        --productHeight:240px;
-        --productImageWidth:200px;
-        --productImageHeight:200px;
-        --productIconWidth:90px;
+        --productWidth:220px;
+        --productHeight:220px;
+        --productImageWidth:160px;
+        --productImageHeight:160px;
+        --productIconWidth:65px;
+
+        /* -- BUSINESS -- */
+        --BpictureWidth: 85%;
+        --BfontSize: 1.6rem;
 
     }
 
@@ -26,10 +31,9 @@
 @media only screen and (min-width: 600px) {
 
     :root{
-
         --pageWidth: 100%;
-        --bannerText: 3.2rem;
-        --cartHeight: 95px;
+        --bannerText: 1.4rem;
+        --cartHeight: 60px;
 
         /* -- PRODUCTS -- */
         --productWidth:240px;
@@ -39,19 +43,15 @@
         --productIconWidth:90px;
 
         /* -- BUSINESS -- */
-        --BpictureWidth: 800px;
-        --BfontSize: 2.8rem;
+        --BpictureWidth: 75%;
+        --BfontSize: 2rem;
     }
-
-    #Logo{
-        display:none;
-    }
-
 }
 
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+
 
 
 }
